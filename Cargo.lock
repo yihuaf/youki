@@ -574,6 +574,7 @@ dependencies = [
  "flate2",
  "libcontainer",
  "nix",
+ "num_cpus",
  "oci-spec",
  "once_cell",
  "procfs",
@@ -610,9 +611,9 @@ dependencies = [
 
 [[package]]
 name = "libc"
-version = "0.2.107"
+version = "0.2.124"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "fbe5e23404da5b4f555ef85ebed98fb4083e55a00c317800bc2a50ede9f3d219"
+checksum = "21a41fed9d98f27ab1c6d161da622a4fa35e8a54a8adc24bbf3ddd0ef70b0e50"
 
 [[package]]
 name = "libcgroups"
