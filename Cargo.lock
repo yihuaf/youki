@@ -412,9 +412,9 @@ dependencies = [
 
 [[package]]
 name = "futures-core"
-version = "0.3.17"
+version = "0.3.23"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "88d1c26957f23603395cd326b0ffe64124b818f4449552f960d815cfba83a53d"
+checksum = "d2acedae88d38235936c3922476b10fced7b2b68136f5e3c03c2d5be348a1115"
 
 [[package]]
 name = "futures-executor"
@@ -574,6 +574,7 @@ dependencies = [
  "flate2",
  "libcontainer",
  "nix",
+ "num_cpus",
  "oci-spec",
  "once_cell",
  "procfs",
